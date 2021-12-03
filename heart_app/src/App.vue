@@ -38,19 +38,19 @@
     </v-app-bar> -->
 
     <v-main>
-      <HelloWorld/>
+      <TestReport/>
     </v-main>
   </v-app>
 </template>
 
 <script>
-import HelloWorld from './components/HelloWorld';
+import TestReport from './views/test_report.vue';
 
 export default {
   name: 'App',
 
   components: {
-    HelloWorld,
+    TestReport,
   },
 
   data: () => ({
